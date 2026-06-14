@@ -6,7 +6,16 @@ Which will clear all the doubts of the user, and hope guys u understand the basi
 
 In this github repository I've added the oop_main.py file where i practiced the programming of topic OOP 
 
-Created by:
+Created & Solved by:
+
 rudransh goswami 
 
-# readme of file 2 
+# readme of file  Inheritance:
+just make the nice foundation in OOP and also learned the basic connecpt of Inheritance , 
+You can check one of the best structured code on the topic of INheritance in python . 
+
+
+Created & Solved by:
+rudransh Goswmai
+-Pro programmer 
+

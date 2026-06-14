@@ -81,3 +81,32 @@ print(f'Solution of class is {obj.a} :')
 
 # 4. Add a static method in problem 2, to greet the user with hello. 
 
+# Added the static method 
+
+# 5. Write a Class ‘Train’ which has methods to book a ticket, get status (no of seats) and get fare information of train running under Indian Railways.
+
+from random import randint 
+
+class Train:
+
+    def __init__(self, trainno):
+        self.trainno = trainno
+
+    def Ticket(self, food, start, end):
+        print(f"The Train no {self.trainno} has {food} type , It started frm {start} and will end on {end}")
+
+
+    def Status(self, start, end):
+        print(f'The Status of train no {self.trainno} which started from {start} and will end on {end} ')
+
+    
+    def fare(self):
+        print(f"The fare of train no {self.trainno} is {randint(67, 450)}") 
+
+
+info = Train(676767)
+info.Ticket("Indian food", "Delhi", "Ghaziabad")
+info.Status("Delhi", "end")
+info.fare()
+
+
